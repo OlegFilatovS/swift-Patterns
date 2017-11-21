@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A320374A1FC4BB3200DE0CC8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32037491FC4BB3200DE0CC8 /* main.swift */; };
+		A32037511FC4BC2200DE0CC8 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32037501FC4BC2200DE0CC8 /* Command.swift */; };
+		A32037531FC4BC7700DE0CC8 /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32037521FC4BC7700DE0CC8 /* ClockApp.swift */; };
+		A32037561FC4BCB300DE0CC8 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32037551FC4BCB200DE0CC8 /* WeatherApp.swift */; };
+		A32037581FC4BD4700DE0CC8 /* WeatherAppOpenCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32037571FC4BD4700DE0CC8 /* WeatherAppOpenCommand.swift */; };
+		A320375A1FC4BE1A00DE0CC8 /* WeatherAppCloseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32037591FC4BE1A00DE0CC8 /* WeatherAppCloseCommand.swift */; };
+		A320375C1FC4BE5300DE0CC8 /* ClockAppCloseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320375B1FC4BE5300DE0CC8 /* ClockAppCloseCommand.swift */; };
+		A320375E1FC4BE7100DE0CC8 /* ClockAppOpenCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320375D1FC4BE7100DE0CC8 /* ClockAppOpenCommand.swift */; };
+		A32037621FC4BF4E00DE0CC8 /* SpringBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32037611FC4BF4E00DE0CC8 /* SpringBoard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A32037441FC4BB3200DE0CC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A32037461FC4BB3200DE0CC8 /* CommandPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32037491FC4BB3200DE0CC8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A32037501FC4BC2200DE0CC8 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		A32037521FC4BC7700DE0CC8 /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
+		A32037551FC4BCB200DE0CC8 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
+		A32037571FC4BD4700DE0CC8 /* WeatherAppOpenCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppOpenCommand.swift; sourceTree = "<group>"; };
+		A32037591FC4BE1A00DE0CC8 /* WeatherAppCloseCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppCloseCommand.swift; sourceTree = "<group>"; };
+		A320375B1FC4BE5300DE0CC8 /* ClockAppCloseCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAppCloseCommand.swift; sourceTree = "<group>"; };
+		A320375D1FC4BE7100DE0CC8 /* ClockAppOpenCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAppOpenCommand.swift; sourceTree = "<group>"; };
+		A32037611FC4BF4E00DE0CC8 /* SpringBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringBoard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32037431FC4BB3200DE0CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A320373D1FC4BB3200DE0CC8 = {
+			isa = PBXGroup;
+			children = (
+				A32037481FC4BB3200DE0CC8 /* CommandPattern */,
+				A32037471FC4BB3200DE0CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32037471FC4BB3200DE0CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32037461FC4BB3200DE0CC8 /* CommandPattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32037481FC4BB3200DE0CC8 /* CommandPattern */ = {
+			isa = PBXGroup;
+			children = (
+				A32037601FC4BE7D00DE0CC8 /* Commands */,
+				A320375F1FC4BE7600DE0CC8 /* Apps */,
+				A32037491FC4BB3200DE0CC8 /* main.swift */,
+				A32037501FC4BC2200DE0CC8 /* Command.swift */,
+				A32037611FC4BF4E00DE0CC8 /* SpringBoard.swift */,
+			);
+			path = CommandPattern;
+			sourceTree = "<group>";
+		};
+		A320375F1FC4BE7600DE0CC8 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				A32037521FC4BC7700DE0CC8 /* ClockApp.swift */,
+				A32037551FC4BCB200DE0CC8 /* WeatherApp.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		A32037601FC4BE7D00DE0CC8 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				A32037571FC4BD4700DE0CC8 /* WeatherAppOpenCommand.swift */,
+				A32037591FC4BE1A00DE0CC8 /* WeatherAppCloseCommand.swift */,
+				A320375B1FC4BE5300DE0CC8 /* ClockAppCloseCommand.swift */,
+				A320375D1FC4BE7100DE0CC8 /* ClockAppOpenCommand.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32037451FC4BB3200DE0CC8 /* CommandPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A320374D1FC4BB3200DE0CC8 /* Build configuration list for PBXNativeTarget "CommandPattern" */;
+			buildPhases = (
+				A32037421FC4BB3200DE0CC8 /* Sources */,
+				A32037431FC4BB3200DE0CC8 /* Frameworks */,
+				A32037441FC4BB3200DE0CC8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandPattern;
+			productName = CommandPattern;
+			productReference = A32037461FC4BB3200DE0CC8 /* CommandPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A320373E1FC4BB3200DE0CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = FilatovOleg;
+				TargetAttributes = {
+					A32037451FC4BB3200DE0CC8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A32037411FC4BB3200DE0CC8 /* Build configuration list for PBXProject "CommandPattern" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A320373D1FC4BB3200DE0CC8;
+			productRefGroup = A32037471FC4BB3200DE0CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32037451FC4BB3200DE0CC8 /* CommandPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32037421FC4BB3200DE0CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A320375C1FC4BE5300DE0CC8 /* ClockAppCloseCommand.swift in Sources */,
+				A32037561FC4BCB300DE0CC8 /* WeatherApp.swift in Sources */,
+				A32037621FC4BF4E00DE0CC8 /* SpringBoard.swift in Sources */,
+				A320375E1FC4BE7100DE0CC8 /* ClockAppOpenCommand.swift in Sources */,
+				A32037581FC4BD4700DE0CC8 /* WeatherAppOpenCommand.swift in Sources */,
+				A32037531FC4BC7700DE0CC8 /* ClockApp.swift in Sources */,
+				A320374A1FC4BB3200DE0CC8 /* main.swift in Sources */,
+				A32037511FC4BC2200DE0CC8 /* Command.swift in Sources */,
+				A320375A1FC4BE1A00DE0CC8 /* WeatherAppCloseCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A320374B1FC4BB3200DE0CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A320374C1FC4BB3200DE0CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A320374E1FC4BB3200DE0CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A320374F1FC4BB3200DE0CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32037411FC4BB3200DE0CC8 /* Build configuration list for PBXProject "CommandPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A320374B1FC4BB3200DE0CC8 /* Debug */,
+				A320374C1FC4BB3200DE0CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A320374D1FC4BB3200DE0CC8 /* Build configuration list for PBXNativeTarget "CommandPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A320374E1FC4BB3200DE0CC8 /* Debug */,
+				A320374F1FC4BB3200DE0CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A320373E1FC4BB3200DE0CC8 /* Project object */;
+}
