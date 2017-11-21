@@ -29,7 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		84F740901FA3B3AD0019790A /* CommandPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F740901FA3B3AD0019790A /* StrategyPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StrategyPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F740931FA3B3AD0019790A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		84F7409A1FA3B3CF0019790A /* CharacterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterState.swift; sourceTree = "<group>"; };
 		84F7409C1FA3B3E20019790A /* RunningState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningState.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		84F740871FA3B3AD0019790A = {
 			isa = PBXGroup;
 			children = (
-				84F740921FA3B3AD0019790A /* CommandPattern */,
+				84F740921FA3B3AD0019790A /* StrategyPattern */,
 				84F740911FA3B3AD0019790A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,12 +61,12 @@
 		84F740911FA3B3AD0019790A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84F740901FA3B3AD0019790A /* CommandPattern */,
+				84F740901FA3B3AD0019790A /* StrategyPattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84F740921FA3B3AD0019790A /* CommandPattern */ = {
+		84F740921FA3B3AD0019790A /* StrategyPattern */ = {
 			isa = PBXGroup;
 			children = (
 				84F740A71FA3BBFE0019790A /* Characters */,
@@ -74,7 +74,7 @@
 				84F740931FA3B3AD0019790A /* main.swift */,
 				84F7409A1FA3B3CF0019790A /* CharacterState.swift */,
 			);
-			path = CommandPattern;
+			path = StrategyPattern;
 			sourceTree = "<group>";
 		};
 		84F740A61FA3BBE40019790A /* States */ = {
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84F7408F1FA3B3AD0019790A /* CommandPattern */ = {
+		84F7408F1FA3B3AD0019790A /* StrategyPattern */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84F740971FA3B3AD0019790A /* Build configuration list for PBXNativeTarget "CommandPattern" */;
+			buildConfigurationList = 84F740971FA3B3AD0019790A /* Build configuration list for PBXNativeTarget "StrategyPattern" */;
 			buildPhases = (
 				84F7408C1FA3B3AD0019790A /* Sources */,
 				84F7408D1FA3B3AD0019790A /* Frameworks */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = CommandPattern;
+			name = StrategyPattern;
 			productName = CommandPattern;
-			productReference = 84F740901FA3B3AD0019790A /* CommandPattern */;
+			productReference = 84F740901FA3B3AD0019790A /* StrategyPattern */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84F7408B1FA3B3AD0019790A /* Build configuration list for PBXProject "CommandPattern" */;
+			buildConfigurationList = 84F7408B1FA3B3AD0019790A /* Build configuration list for PBXProject "StrategyPattern" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84F7408F1FA3B3AD0019790A /* CommandPattern */,
+				84F7408F1FA3B3AD0019790A /* StrategyPattern */,
 			);
 		};
 /* End PBXProject section */
@@ -294,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84F7408B1FA3B3AD0019790A /* Build configuration list for PBXProject "CommandPattern" */ = {
+		84F7408B1FA3B3AD0019790A /* Build configuration list for PBXProject "StrategyPattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84F740951FA3B3AD0019790A /* Debug */,
@@ -303,7 +303,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84F740971FA3B3AD0019790A /* Build configuration list for PBXNativeTarget "CommandPattern" */ = {
+		84F740971FA3B3AD0019790A /* Build configuration list for PBXNativeTarget "StrategyPattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84F740981FA3B3AD0019790A /* Debug */,

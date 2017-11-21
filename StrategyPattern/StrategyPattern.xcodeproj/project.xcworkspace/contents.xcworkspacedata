@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CommandPattern.xcodeproj">
+      location = "self:/Users/filatovoleg/Desktop/swift-Patterns/CommandPattern/StrategyPattern.xcodeproj">
    </FileRef>
 </Workspace>
